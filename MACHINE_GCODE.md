@@ -360,9 +360,15 @@ PAUSE
           M106 P1 S255 
           G4 P800      
           M106 P1 S0
-          G1 E-[filament_retract_length_toolchange[current_extruder]] F1800
-          _SBROS_TRASH
-          G1 E[filament_retract_length_toolchange[current_extruder]] F1800
+          {if is_nil(filament_retract_length_toolchange[next_extruder])} 
+            G1 E-[filament_retract_length[next_extruder]] F[filament_retract_speed[next_extruder]]
+            _SBROS_TRASH
+            G1 E[filament_retract_length[next_extruder]] F[filament_retract_speed[next_extruder]]          
+          {else}
+            G1 E-[filament_retract_length_toolchange[next_extruder]] F[filament_retract_speed[next_extruder]]
+            _SBROS_TRASH
+            G1 E[filament_retract_length_toolchange[next_extruder]] F[filament_retract_speed[next_extruder]]
+          {endif}
           _CLEAR_REZINA
       {endif}            
       {if previous_extruder != -1 }
