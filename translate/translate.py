@@ -7,7 +7,7 @@ from pathlib import Path
 
 def main():
     if len(sys.argv) < 2:
-        print("Použití: python script.py <soubor_překladu.csv>")
+        print("Použití: python script.py <soubor_překladu.txt>")
         return
 
     translate_file = sys.argv[1]
@@ -17,12 +17,10 @@ def main():
 
     translations = {}
     with open(translate_file, 'r', encoding='utf-8') as f:
-        reader = csv.reader(f, delimiter=';')
-        for row in reader:
-            if len(row) >= 2:
-                original = row[0].strip()
-                translated = row[1].strip()
-                translations[original] = translated
+        for line in f:
+            if ';;;' in line:
+                original, translated = line.split(';;;', 1)
+                translations[original.strip()] = translated.strip()
 
     pattern = re.compile(r'(===)(.*?)(===)')
 
