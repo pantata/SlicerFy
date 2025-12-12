@@ -1,1 +1,7 @@
 .DS_Store
+translate/
+slicerfy.cfg
+slicerfy.clsx
+test.3mf
+test.gcode
+upravy.cfg
