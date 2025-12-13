@@ -49,13 +49,13 @@
 - Change web ui to **Mainsail** running the `WEB` command
 - Run `ENABLE_PLUGIN name=bambufy` command from the console.
 
-**Bambu Studio**
+## Bambu Studio
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf) with Bambu Studio (from there you can save settings such as user profiles)
 
-**Orcaslicer**
+## Orcaslicer
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_Orca.3mf) with Orca slicer.
 
-**Prusaslicer**
+## Prusaslicer
 - Import config bundle from [prusaslicer-settings-bundle](https://github.com/pantata/prusaslicer-settings-flashforge-AD5X)
 
 
