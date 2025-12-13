@@ -2,7 +2,7 @@
    - Compatible with Bambu Studio, better management of the prime tower
    ([3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf))
    - Compatible with Orca slicer ([3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_Orca.3mf))
-   - Compatible with Prusaslicer (experimental) 
+   - Compatible with Prusaslicer (experimental) - need https://github.com/pantata/prusaslicer-settings-flashforge-AD5X
    - Purge sequences fully controlled by the slicer (same behavior as
    Bambu Lab printers)
    - Accurate time and material usage estimates (Bambu Studio)
@@ -53,7 +53,7 @@
 **Orcaslicer**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_Orca.3mf) with Orca slicer.
 **Prusaslicer**
-- Import config bundle from prusaslicer-config folder
+- Import config bundle from [prusaslicer-settings-bundle](https://github.com/pantata/prusaslicer-settings-flashforge-AD5X)
 
 
 ## How to uninstall
