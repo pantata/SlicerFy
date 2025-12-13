@@ -1,0 +1,43 @@
+The information dialogs will be displayed ;;; Le finestre di dialogo informative saranno visualizzate
+Pooping the previous color/material from the hotend ;;; Espulsione del colore/materiale precedente dall’hotend
+One of the filaments is gripped by the extruder so we extrude {flush_length|string}mm to determine which one it is ... ;;; Uno dei filamenti è afferrato dall’estrusore, quindi estrudiamo {flush_length|string} mm per determinare quale sia ...
+Run out filament (Head) ({ifs.extruder_port|string}), pausing... ;;; Filamento esaurito (testa) ({ifs.extruder_port|string}), pausa...
+Cut X={x_cut} Y={y_cut} ;;; Taglio X={x_cut} Y={y_cut}
+IFS Port ({ifs.extruder_port|string}) empty, please insert filament, pausing... ;;; Porta IFS ({ifs.extruder_port|string}) vuota, inserire il filamento, pausa...
+Trash Y={client.custom_park_y} ;;; Scarto Y={client.custom_park_y}
+Cleaning the nozzle on rubber ;;; Pulizia dell’ugello sulla gomma
+Unloading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s ;;; Scarico del filamento a {extruder_temp} per {extrude_len} mm a {speed/60} mm/s
+Cancel ;;; Annulla
+Update 'Filament change gcode' to v{ifs.min_version} or higher https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md ;;; Aggiornare “Filament change gcode” a v{ifs.min_version} o superiore https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md
+Go to trash ;;; Vai allo scarto
+Enable Guppy Screen|_DISPLAY_OFF|info ;;; Abilita Guppy Screen|_DISPLAY_OFF|info
+Bed leveling (KAMP) ;;; Livellamento del piano (KAMP)
+Processing '{filename}' ;;; Elaborazione di “{filename}”
+Jam detected (Motion) ({ifs.extruder_port|string}), pausing... ;;; Inceppamento rilevato (movimento) ({ifs.extruder_port|string}), pausa...
+Print ;;; Stampa
+Disable Bambufy|DISABLE_PLUGIN name=bambufy|info ;;; Disabilita Bambufy|DISABLE_PLUGIN name=bambufy|info
+MD5 check failed. Print canceled. ;;; Controllo MD5 fallito. Stampa annullata.
+Start print {extruder_temp}/{bed_temp} ;;; Avvia stampa {extruder_temp}/{bed_temp}
+Pause during loading ;;; Pausa durante il caricamento
+Update 'Filament change gcode' to v{ifs.min_version} or higher ;;; Aggiornare “Filament change gcode” a v{ifs.min_version} o superiore
+Run out filament (Head) ({ifs.extruder_port|string}), backup, loading {port} and continuing with printing... ;;; Filamento esaurito (testa) ({ifs.extruder_port|string}), backup, carico {port} e continuo la stampa...
+Check that there is nothing obvious, such as a knot in the filament spool, or similar, and press 'Resume printing' at least once before starting to look more deeply into the cause of the jam that is causing this pause ;;; Verificare che non ci siano problemi evidenti, come un nodo sulla bobina, e premere “Riprendi stampa” almeno una volta prima di indagare più a fondo
+Run out filament (Head) ({ifs.extruder_port|string}), no backup alternative has been found, pausing... ;;; Filamento esaurito (testa) ({ifs.extruder_port|string}), nessuna alternativa di backup trovata, pausa...
+Warning ;;; Avviso
+Broken filament in the IFS tube (Head) ({ifs.extruder_port|string}), pausing... ;;; Filamento rotto nel tubo IFS (testa) ({ifs.extruder_port|string}), pausa...
+Timeout ignored because printer state == paused. ;;; Timeout ignorato perché lo stato della stampante == in pausa.
+The information dialogs have been hidden ;;; Le finestre di dialogo informative sono state nascoste
+Pause during printing ;;; Pausa durante la stampa
+Error ;;; Errore
+Jam detected loading filament ({ifs.extruder_port|string}), pausing... ;;; Inceppamento rilevato durante il caricamento del filamento ({ifs.extruder_port|string}), pausa...
+Run '_INFO_DIALOG_HIDE' to prevent any of these messages from being displayed again. ;;; Eseguire “_INFO_DIALOG_HIDE” per evitare che questi messaggi vengano visualizzati di nuovo.
+One of the filaments was just activating the sensor, retract 45mm all of them ... ;;; Uno dei filamenti ha appena attivato il sensore, retrarre tutti di 45 mm ...
+Nozzle cleaning ;;; Pulizia dell’ugello
+Started MD5 check {filename} ;;; Avviato controllo MD5 {filename}
+Unloading filament {extruder_port} ;;; Scarico filamento {extruder_port}
+Auto insert: {port} ... ;;; Inserimento automatico: {port} ...
+Checking the status of the filaments in the IFS ports ... ;;; Controllo dello stato dei filamenti nelle porte IFS ...
+Loading filament {port} ;;; Caricamento filamento {port}
+Cutting the filament ;;; Taglio del filamento
+Heating the nozzle to {extruder_temp} degrees ;;; Riscaldamento dell’ugello a {extruder_temp} gradi
+Bambufy does not work with the native screen, it requires Guppy Screen (DISPLAY_OFF) ;;; Bambufy non funziona con lo schermo nativo, richiede Guppy Screen (DISPLAY_OFF)
