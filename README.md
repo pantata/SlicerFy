@@ -2,7 +2,7 @@
    - Compatible with Bambu Studio, better management of the prime tower
    ([3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf))
    - Compatible with Orca slicer ([3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_Orca.3mf))
-   - Compatible with Prusaslicer ([AD5X Configuration] (https://.....) )
+   - Compatible with Prusaslicer (experimental) 
    - Purge sequences fully controlled by the slicer (same behavior as
    Bambu Lab printers)
    - Accurate time and material usage estimates (Bambu Studio)
@@ -48,13 +48,12 @@
 - Change the native display to **Guppyscreen** running the `DISPLAY_OFF` command
 - Change web ui to **Mainsail** running the `WEB` command
 - Run `ENABLE_PLUGIN name=bambufy` command from the console.
-- **Bambu Studio**
+**Bambu Studio**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf) with Bambu Studio (from there you can save settings such as user profiles)
-- **Orcaslicer**
+**Orcaslicer**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_Orca.3mf) with Orca slicer.
-- **Prusaslicer**
-- Import config bundle [AD5X Configuration] (https://.....) 
-
+**Prusaslicer**
+- Import config bundle from prusaslicer-config folder
 
 
 ## How to uninstall

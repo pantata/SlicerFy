@@ -1,0 +1,59 @@
+; Vlastni definice pro simulaci flush_length_X z OrcaSliceru
+; Upozorneni: PrusaSlicer NEPODPORUJE definici novych PROMENNYCH (jako v OrcaSliceru/Klipperu).
+; Musime pouzit pouze PRIMOU MATEMATIKU s promennou [total_toolchange_filament_priming].
+
+{if total_toolchange_filament_priming > 0}
+
+    ; Nastavte akceleraci a provedte fyzickou vymenu nastroje T[next_extruder] ZDE
+    M204 S9000
+    G1 Z{max_layer_z + 3.0} F1200
+    T[next_extruder]
+    
+    ; *** 1. FÁZE (Simulace flush_length_1) ***
+    ; Pouzijeme 60% z celkove delky proplachu
+    {if total_toolchange_filament_priming * 0.6 > 1}
+        _GOTO_TRASH ; Presun do odpadni komory (pokud mate makro)
+        
+        ; Pulzni Proplach - I. Fáze (60% TFL)
+        ; Pulz 1
+        G1 E{[total_toolchange_filament_priming * 0.6] * 0.04} F{old_filament_e_feedrate/2}
+        G1 E{[total_toolchange_filament_priming * 0.6] * 0.21} F{old_filament_e_feedrate}
+        ; Pulz 2
+        G1 E{[total_toolchange_filament_priming * 0.6] * 0.04} F{old_filament_e_feedrate/2}
+        G1 E{[total_toolchange_filament_priming * 0.6] * 0.21} F{new_filament_e_feedrate}
+        
+        ; Zde by prisel WIPE/OTRENI, pokud jej chcete provest po FLUSH_1.
+        
+    {endif}
+    
+    ; *** 2. FÁZE (Simulace flush_length_2) ***
+    ; Pouzijeme dalsich 20% z celkove delky proplachu
+    {if total_toolchange_filament_priming * 0.2 > 1}
+    
+        ; Pulzni Proplach - II. Fáze (20% TFL)
+        ; Pulz 1
+        G1 E{[total_toolchange_filament_priming * 0.2] * 0.04} F{new_filament_e_feedrate/2}
+        G1 E{[total_toolchange_filament_priming * 0.2] * 0.21} F{new_filament_e_feedrate}
+        
+        ; Pulz 2
+        G1 E{[total_toolchange_filament_priming * 0.2] * 0.04} F{new_filament_e_feedrate/2}
+        G1 E{[total_toolchange_filament_priming * 0.2] * 0.21} F{new_filament_e_feedrate}
+
+    {endif}
+    
+    ; *** 3. FÁZE a 4. FÁZE (Simulace flush_length_3 + flush_length_4) ***
+    ; Zbylech 20% (10% + 10%)
+    {if total_toolchange_filament_priming * 0.2 > 1}
+        
+        ; Pouzijeme zbytek pro rychle pulzy tesne pred tiskem
+        G1 E{[total_toolchange_filament_priming * 0.2] * 0.04} F{new_filament_e_feedrate/2}
+        G1 E{[total_toolchange_filament_priming * 0.2] * 0.21} F{new_filament_e_feedrate}
+        
+        ; Vypnuti ventilatoru a finalni retrakce
+        M106 P1 S0
+        G1 E-[new_retract_length_toolchange] F1800
+        _SBROS_TRASH ; Finalni utreni
+        
+    {endif}
+    
+{endif}
