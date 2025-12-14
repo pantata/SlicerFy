@@ -1,0 +1,43 @@
+The information dialogs will be displayed ;;; Информационные диалоги будут отображаться
+Pooping the previous color/material from the hotend ;;; Выдавливание предыдущего цвета/материала из хотэнда
+One of the filaments is gripped by the extruder so we extrude {flush_length|string}mm to determine which one it is ... ;;; Один из филаментов захвачен экструдером, поэтому мы выдавливаем {flush_length|string} мм, чтобы определить, какой именно ...
+Run out filament (Head) ({ifs.extruder_port|string}), pausing... ;;; Закончился филамент (голова) ({ifs.extruder_port|string}), пауза...
+Cut X={x_cut} Y={y_cut} ;;; Отрезка X={x_cut} Y={y_cut}
+IFS Port ({ifs.extruder_port|string}) empty, please insert filament, pausing... ;;; Порт IFS ({ifs.extruder_port|string}) пуст, вставьте филамент, пауза...
+Trash Y={client.custom_park_y} ;;; Мусор Y={client.custom_park_y}
+Cleaning the nozzle on rubber ;;; Очистка сопла о резину
+Unloading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s ;;; Выгрузка филамента при {extruder_temp} на {extrude_len} мм со скоростью {speed/60} мм/с
+Cancel ;;; Отмена
+Update 'Filament change gcode' to v{ifs.min_version} or higher https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md ;;; Обновите «Filament change gcode» до версии v{ifs.min_version} или выше https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md
+Go to trash ;;; Перейти к отходам
+Enable Guppy Screen|_DISPLAY_OFF|info ;;; Включить Guppy Screen|_DISPLAY_OFF|info
+Bed leveling (KAMP) ;;; Калибровка стола (KAMP)
+Processing '{filename}' ;;; Обработка «{filename}»
+Jam detected (Motion) ({ifs.extruder_port|string}), pausing... ;;; Обнаружено заклинивание (движение) ({ifs.extruder_port|string}), пауза...
+Print ;;; Печать
+Disable Bambufy|DISABLE_PLUGIN name=bambufy|info ;;; Отключить Bambufy|DISABLE_PLUGIN name=bambufy|info
+MD5 check failed. Print canceled. ;;; Проверка MD5 не удалась. Печать отменена.
+Start print {extruder_temp}/{bed_temp} ;;; Начать печать {extruder_temp}/{bed_temp}
+Pause during loading ;;; Пауза при загрузке
+Update 'Filament change gcode' to v{ifs.min_version} or higher ;;; Обновите «Filament change gcode» до версии v{ifs.min_version} или выше
+Run out filament (Head) ({ifs.extruder_port|string}), backup, loading {port} and continuing with printing... ;;; Закончился филамент (голова) ({ifs.extruder_port|string}), резерв, загрузка {port} и продолжение печати...
+Check that there is nothing obvious, such as a knot in the filament spool, or similar, and press 'Resume printing' at least once before starting to look more deeply into the cause of the jam that is causing this pause ;;; Убедитесь, что нет очевидных проблем, например узла на катушке, и нажмите «Возобновить печать» хотя бы один раз, прежде чем глубже искать причину заклинивания
+Run out filament (Head) ({ifs.extruder_port|string}), no backup alternative has been found, pausing... ;;; Закончился филамент (голова) ({ifs.extruder_port|string}), резерв не найден, пауза...
+Warning ;;; Предупреждение
+Broken filament in the IFS tube (Head) ({ifs.extruder_port|string}), pausing... ;;; Обрыв филамента в трубке IFS (голова) ({ifs.extruder_port|string}), пауза...
+Timeout ignored because printer state == paused. ;;; Тайм-аут проигнорирован, так как состояние принтера == пауза.
+The information dialogs have been hidden ;;; Информационные диалоги скрыты
+Pause during printing ;;; Пауза во время печати
+Error ;;; Ошибка
+Jam detected loading filament ({ifs.extruder_port|string}), pausing... ;;; Обнаружено заклинивание при загрузке филамента ({ifs.extruder_port|string}), пауза...
+Run '_INFO_DIALOG_HIDE' to prevent any of these messages from being displayed again. ;;; Выполните «_INFO_DIALOG_HIDE», чтобы эти сообщения больше не отображались.
+One of the filaments was just activating the sensor, retract 45mm all of them ... ;;; Один из филаментов активировал датчик, втянуть все на 45 мм ...
+Nozzle cleaning ;;; Очистка сопла
+Started MD5 check {filename} ;;; Начата проверка MD5 {filename}
+Unloading filament {extruder_port} ;;; Выгрузка филамента {extruder_port}
+Auto insert: {port} ... ;;; Автоматическая вставка: {port} ...
+Checking the status of the filaments in the IFS ports ... ;;; Проверка состояния филаментов в портах IFS ...
+Loading filament {port} ;;; Загрузка филамента {port}
+Cutting the filament ;;; Обрезка филамента
+Heating the nozzle to {extruder_temp} degrees ;;; Нагрев сопла до {extruder_temp} градусов
+Bambufy does not work with the native screen, it requires Guppy Screen (DISPLAY_OFF) ;;; Bambufy не работает с родным экраном, требуется Guppy Screen (DISPLAY_OFF)

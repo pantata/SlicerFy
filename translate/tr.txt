@@ -1,0 +1,43 @@
+The information dialogs will be displayed ;;; Bilgi iletişim kutuları görüntülenecek
+Pooping the previous color/material from the hotend ;;; Hotend’den önceki renk/malzemenin purj edilmesi
+One of the filaments is gripped by the extruder so we extrude {flush_length|string}mm to determine which one it is ... ;;; Filamentlerden biri ekstrüder tarafından tutuluyor, hangisi olduğunu belirlemek için {flush_length|string} mm ekstrüde ediyoruz ...
+Run out filament (Head) ({ifs.extruder_port|string}), pausing... ;;; Filament tükendi (kafa) ({ifs.extruder_port|string}), duraklatılıyor...
+Cut X={x_cut} Y={y_cut} ;;; Kesim X={x_cut} Y={y_cut}
+IFS Port ({ifs.extruder_port|string}) empty, please insert filament, pausing... ;;; IFS Portu ({ifs.extruder_port|string}) boş, lütfen filament takın, duraklatılıyor...
+Trash Y={client.custom_park_y} ;;; Atık Y={client.custom_park_y}
+Cleaning the nozzle on rubber ;;; Nozulun lastik üzerinde temizlenmesi
+Unloading filament at {extruder_temp} for {extrude_len}mm at {speed/60} mm/s ;;; {extruder_temp}’de {extrude_len} mm filament {speed/60} mm/s hızla boşaltılıyor
+Cancel ;;; İptal
+Update 'Filament change gcode' to v{ifs.min_version} or higher https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md ;;; “Filament change gcode”u v{ifs.min_version} veya üzeri bir sürüme güncelleyin https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md
+Go to trash ;;; Atığa git
+Enable Guppy Screen|_DISPLAY_OFF|info ;;; Guppy Screen’i etkinleştir|_DISPLAY_OFF|info
+Bed leveling (KAMP) ;;; Tabla seviyeleme (KAMP)
+Processing '{filename}' ;;; “{filename}” işleniyor
+Jam detected (Motion) ({ifs.extruder_port|string}), pausing... ;;; Sıkışma algılandı (hareket) ({ifs.extruder_port|string}), duraklatılıyor...
+Print ;;; Yazdır
+Disable Bambufy|DISABLE_PLUGIN name=bambufy|info ;;; Bambufy’yi devre dışı bırak|DISABLE_PLUGIN name=bambufy|info
+MD5 check failed. Print canceled. ;;; MD5 kontrolü başarısız oldu. Baskı iptal edildi.
+Start print {extruder_temp}/{bed_temp} ;;; Baskıyı başlat {extruder_temp}/{bed_temp}
+Pause during loading ;;; Yükleme sırasında duraklat
+Update 'Filament change gcode' to v{ifs.min_version} or higher ;;; “Filament change gcode”u v{ifs.min_version} veya üzeri bir sürüme güncelleyin
+Run out filament (Head) ({ifs.extruder_port|string}), backup, loading {port} and continuing with printing... ;;; Filament tükendi (kafa) ({ifs.extruder_port|string}), yedek, {port} yükleniyor ve baskıya devam ediliyor...
+Check that there is nothing obvious, such as a knot in the filament spool, or similar, and press 'Resume printing' at least once before starting to look more deeply into the cause of the jam that is causing this pause ;;; Filament makarasındaki bir düğüm gibi bariz bir şey olmadığını kontrol edin ve bu duraklamaya neden olan sıkışmanın sebebini daha ayrıntılı incelemeden önce en az bir kez “Baskıya devam et”e basın
+Run out filament (Head) ({ifs.extruder_port|string}), no backup alternative has been found, pausing... ;;; Filament tükendi (kafa) ({ifs.extruder_port|string}), yedek alternatif bulunamadı, duraklatılıyor...
+Warning ;;; Uyarı
+Broken filament in the IFS tube (Head) ({ifs.extruder_port|string}), pausing... ;;; IFS tüpünde kopmuş filament (kafa) ({ifs.extruder_port|string}), duraklatılıyor...
+Timeout ignored because printer state == paused. ;;; Yazıcı durumu == duraklatıldı olduğu için zaman aşımı yok sayıldı.
+The information dialogs have been hidden ;;; Bilgi iletişim kutuları gizlendi
+Pause during printing ;;; Baskı sırasında duraklat
+Error ;;; Hata
+Jam detected loading filament ({ifs.extruder_port|string}), pausing... ;;; Filament yüklenirken sıkışma algılandı ({ifs.extruder_port|string}), duraklatılıyor...
+Run '_INFO_DIALOG_HIDE' to prevent any of these messages from being displayed again. ;;; Bu mesajların tekrar gösterilmesini önlemek için “_INFO_DIALOG_HIDE” çalıştırın.
+One of the filaments was just activating the sensor, retract 45mm all of them ... ;;; Filamentlerden biri sensörü az önce etkinleştirdi, hepsini 45 mm geri çekin ...
+Nozzle cleaning ;;; Nozul temizliği
+Started MD5 check {filename} ;;; MD5 kontrolü başlatıldı {filename}
+Unloading filament {extruder_port} ;;; Filament boşaltılıyor {extruder_port}
+Auto insert: {port} ... ;;; Otomatik takma: {port} ...
+Checking the status of the filaments in the IFS ports ... ;;; IFS portlarındaki filamentlerin durumu kontrol ediliyor ...
+Loading filament {port} ;;; Filament yükleniyor {port}
+Cutting the filament ;;; Filament kesiliyor
+Heating the nozzle to {extruder_temp} degrees ;;; Nozul {extruder_temp} dereceye ısıtılıyor
+Bambufy does not work with the native screen, it requires Guppy Screen (DISPLAY_OFF) ;;; Bambufy yerel ekranla çalışmaz, Guppy Screen (DISPLAY_OFF) gerektirir
