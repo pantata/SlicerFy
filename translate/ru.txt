@@ -1,0 +1,65 @@
+Print ;;; Печать
+Warning ;;; Внимание
+Unloading filament {extruder_port} ;;; Выгрузка филамента {extruder_port}
+LEVELING ;;; КАЛИБРОВКА
+Leveling ;;; Калибровка
+Type of Port {port} ;;; Тип порта {port}
+Update 'Filament change gcode' to v{ifs.min_version} or higher ;;; Обновите 'G-код смены филамента' до версии {ifs.min_version} или выше
+Slicerfy does not work with the native screen, it requires Guppy Screen (DISPLAY_OFF) ;;; Slicerfy не работает с родным экраном, требуется Guppy Screen (DISPLAY_OFF)
+Timeout ignored because printer state == paused. ;;; Тайм-аут проигнорирован, так как принтер на паузе.
+Cancel ;;; Отмена
+Pause ;;; Пауза
+Disable Slicerfy ;;; Отключить Slicerfy
+Run out filament ;;; Закончился филамент
+Poop ;;; Очистка
+Error ;;; Ошибка
+Checking MD5 '{filename}' ... ;;; Проверка MD5 '{filename}' ...
+BACKUP ;;; РЕЗЕРВ
+C ;;; Ц
+Cutting the filament ;;; Резка филамента
+Maintenance ;;; Обслуживание
+MD5 check failed. Print canceled. ;;; Ошибка проверки MD5. Печать отменена.
+Started MD5 check {filename} ;;; Начата проверка MD5 {filename}
+Wait ;;; Подождите
+Filament run out ;;; Филамент закончился
+Cut X={x_cut} Y={y_cut} ;;; Рез X={x_cut} Y={y_cut}
+Filament Load ;;; Загрузка филамента
+Enable Guppy Screen ;;; Включить Guppy Screen
+Movement ;;; Движение
+Filament detected ;;; Филамент обнаружен
+Start Print ;;; Начать печать
+Insert filament detected ;;; Обнаружена вставка филамента
+Info Dialog ;;; Информационное окно
+Close ;;; Закрыть
+Filament Unload ;;; Выгрузка филамента
+Run '_INFO_DIALOG_HIDE' to prevent any of these messages from being displayed again. ;;; Выполните '_INFO_DIALOG_HIDE', чтобы скрыть эти сообщения.
+Color to Port ;;; Цвет к порту
+Checking filaments ;;; Проверка филаментов
+Loading filament {port} ;;; Загрузка филамента {port}
+Processing '{filename}' ;;; Обработка '{filename}'
+Auto insert: {port} ... ;;; Автоматическая вставка: {port} ...
+Cleaning the nozzle on rubber ;;; Очистка сопла о резину
+Pause during loading ;;; Пауза во время загрузки
+Heating the nozzle to {extruder_temp} degrees ;;; Нагрев сопла до {extruder_temp} градусов
+Unloading at {extruder_temp}°C, length {extrude_len}mm ;;; Выгрузка при {extruder_temp}°C, длина {extrude_len}мм
+One of the filaments is gripped by the extruder so we extrude {flush_length|string}mm to determine which one it is ... ;;; Один из филаментов зажат экструдером, мы выдавливаем {flush_length|string}мм, чтобы определить, какой именно ...
+Checking the status of the filaments in the IFS ports ... ;;; Проверка состояния филаментов в портах IFS ...
+Bed leveling (KAMP) ;;; Калибровка стола (KAMP)
+The information dialogs will be displayed ;;; Информационные диалоги будут отображаться
+Pooping the previous color/material from the hotend ;;; Очистка предыдущего цвета/материала из хотэнда
+Going to trash at Y={client.custom_park_y} ;;; Перемещение в зону очистки на Y={client.custom_park_y}
+One of the filaments was just activating the sensor, retract 45mm all of them ... ;;; Один из филаментов только что активировал датчик, втягиваем все на 45мм ...
+Broken filament in the IFS tube (Head) ({ifs.extruder_port|string}), pausing... ;;; Обрыв филамента в трубке IFS (Головка) ({ifs.extruder_port|string}), пауза...
+Nozzle cleaning ;;; Очистка сопла
+Pause during printing ;;; Пауза во время печати
+Jam detected (Motion) ({ifs.extruder_port|string}), pausing... ;;; Обнаружено застревание (Движение) ({ifs.extruder_port|string}), пауза...
+Loading at {extruder_temp}°C, length {extrude_len}mm ;;; Загрузка при {extruder_temp}°C, длина {extrude_len}мм
+Run out filament (Head) ({ifs.extruder_port|string}), pausing... ;;; Закончился филамент (Головка) ({ifs.extruder_port|string}), пауза...
+The information dialogs have been hidden ;;; Информационные диалоги были скрыты
+Run out filament (Head) ({ifs.extruder_port|string}), backup, loading {port} and continuing with printing... ;;; Закончился филамент (Головка) ({ifs.extruder_port|string}), резерв, загрузка {port} и продолжение печати...
+IFS Port ({ifs.extruder_port|string}) empty, please insert filament, pausing... ;;; Порт IFS ({ifs.extruder_port|string}) пуст, пожалуйста, вставьте филамент, пауза...
+Jam detected loading filament ({ifs.extruder_port|string}), pausing... ;;; Обнаружено застревание при загрузке филамента ({ifs.extruder_port|string}), пауза...
+Heating bed to {bed_temp}°C and extruder to {extruder_temp}°C ;;; Нагрев стола до {bed_temp}°C и экструдера до {extruder_temp}°C
+Run out filament (Head) ({ifs.extruder_port|string}), no backup alternative has been found, pausing... ;;; Закончился филамент (Головка) ({ifs.extruder_port|string}), резервная альтернатива не найдена, пауза...
+Extruder is using port {{ ifs.extruder_port }} ;;; Экструдер использует порт {{ ifs.extruder_port }}
+Filament run out in the IFS ({port|string}), we continue printing until it runs out in the extruder or there is a filament change ;;; В IFS закончился филамент ({port|string}), продолжаем печать, пока он не закончится в экструдере или не произойдет смена филамента
