@@ -177,6 +177,8 @@ def main():
 
     # Extract metadata
     tools = sorted({m.group(1) for m in re.finditer(r"^\s*T(\d+)", gcode, re.MULTILINE)})
+    if not tools:
+        tools = ["0"]
     colors = parse_list_from_comment(gcode, "; filament_colour =")
     types = parse_list_from_comment(gcode, "; filament_type =")
     feedrates = parse_feedrates(gcode)
