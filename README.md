@@ -28,7 +28,6 @@
    errors
 
 **Changes from the original version:**
-- localization (cs, de, en, es, fr, it, pt, ru, tr)
 - Prusaslicer support
 - added Telegram notifications
 - printer modification moved to its own file. If you want to use it, add [include plugins/bambufy/printer_modification.cfg] to user.cfg
