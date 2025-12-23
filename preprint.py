@@ -176,7 +176,7 @@ def main():
     from_slicer = any(k.startswith("SLIC3R_") for k in os.environ)
 
     # Extract metadata
-    tools = sorted({m.group(1) for m in re.finditer(r"^\s*T(\d+)", gcode, re.MULTILINE)})
+    tools = list(dict.fromkeys(m.group(1) for m in re.finditer(r"^\s*T(\d+)", gcode, re.MULTILINE)))
     if not tools:
         tools = ["0"]
     colors = parse_list_from_comment(gcode, "; filament_colour =")
