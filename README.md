@@ -71,7 +71,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
 - (Optional) Go back to Fluidd `WEB`
 
 ## [Multicolor printing nopoop (Orca)](https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md#orca-slicer-change-filament-g-code-unified-poop-and-nopoop)
-## [Multicolor printing nopoop (Prusaslicer)](https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md#orca-slicer-change-filament-g-code-unified-poop-and-nopoop)
+## [Multicolor printing nopoop (Prusaslicer)(https://github.com/pantata/slicerfy/blob/master/MACHINE_GCODE.md#prusaslicer-change-filament-g-code)
 
 ## Pull requests and issues are welcome!
 Let's do what Flashforge didn't want to do!
