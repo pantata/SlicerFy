@@ -49,6 +49,15 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
 - Install [zmod](https://github.com/ghzserg/zmod) following the [instructions](https://github.com/ghzserg/zmod/wiki/Setup_en#installing-the-mod)
 - Change the native display to **Guppyscreen** running the `DISPLAY_OFF` command
 - Change web ui to **Mainsail** running the `WEB` command
+- Add the following section to mod_data/plugins.moonraker.conf:
+   [update_manager slicerfy]
+   type: git_repo
+   channel: dev
+   path: /root/printer_data/config/mod_data/plugins/slicerfy
+   origin: https://github.com/pantata/slicerfy.git
+   is_system_service: False
+   primary_branch: master
+
 - Run `ENABLE_PLUGIN name=slicerfy` command from the console.
 **Bambu Studio**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf) with Bambu Studio (from there you can save settings such as user profiles)
@@ -59,7 +68,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
 
 
 ## How to uninstall
-- Run the `DISABLE_PLUGIN name=bambufy` command from the console.
+- Run the `DISABLE_PLUGIN name=slicerfy` command from the console.
 - (Optional) Go back to stock screen `DISPLAY_ON`
 - (Optional) Go back to Fluidd `WEB`
 
