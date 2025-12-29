@@ -1,4 +1,7 @@
-# Bambufy AD5X
+# Slicerfy AD5X
+
+Modified fork of [Bambufy](https://github.com/function3d/bambufy).
+
    - Compatible with Bambu Studio, better management of the prime tower
    ([3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf))
    - Compatible with Orca slicer ([3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_Orca.3mf))
@@ -30,7 +33,7 @@
 **Changes from the original version:**
 - Prusaslicer support
 - added Telegram notifications
-- printer modification moved to its own file. If you want to use it, add [include plugins/bambufy/printer_modification.cfg] to user.cfg
+- printer modification moved to its own file. If you want to use it, add [include plugins/slicerfy/printer_modification.cfg] to user.cfg
 
 ## Bambu Studio
 <img width="812" width="1436" height="799" alt="image" src="https://github.com/user-attachments/assets/1d6a9e77-8b35-4d04-96d4-d92022a3500b" />
@@ -46,7 +49,7 @@
 - Install [zmod](https://github.com/ghzserg/zmod) following the [instructions](https://github.com/ghzserg/zmod/wiki/Setup_en#installing-the-mod)
 - Change the native display to **Guppyscreen** running the `DISPLAY_OFF` command
 - Change web ui to **Mainsail** running the `WEB` command
-- Run `ENABLE_PLUGIN name=bambufy` command from the console.
+- Run `ENABLE_PLUGIN name=slicerfy` command from the console.
 **Bambu Studio**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf) with Bambu Studio (from there you can save settings such as user profiles)
 **Orcaslicer**
@@ -72,3 +75,4 @@ Let's do what Flashforge didn't want to do!
 
 ## Credits
 Sergei (ghzserg) [zmod](https://github.com/ghzserg/zmod)
+Raúl (function3d) [bambufy](https://github.com/function3d/bambufy
