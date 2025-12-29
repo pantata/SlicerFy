@@ -50,6 +50,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
 - Change the native display to **Guppyscreen** running the `DISPLAY_OFF` command
 - Change web ui to **Mainsail** running the `WEB` command
 - Add the following section to mod_data/plugins.moonraker.conf:
+```
    [update_manager slicerfy]
    type: git_repo
    channel: dev
@@ -57,7 +58,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
    origin: https://github.com/pantata/slicerfy.git
    is_system_service: False
    primary_branch: master
-
+```
 - Run `ENABLE_PLUGIN name=slicerfy` command from the console.
 **Bambu Studio**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf) with Bambu Studio (from there you can save settings such as user profiles)
