@@ -316,7 +316,7 @@ PAUSE
 ```
 ; *********************************
 ; AD5X Change Filament G-code START
-
+; Bambufy: v1.2.3
 {if previous_extruder != -1}
   {if temperature[previous_extruder] < temperature[next_extruder]}
     M104 S[temperature[next_extruder]]

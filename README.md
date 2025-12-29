@@ -50,6 +50,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
 - Change the native display to **Guppyscreen** running the `DISPLAY_OFF` command
 - Change web ui to **Mainsail** running the `WEB` command
 - Add the following section to mod_data/plugins.moonraker.conf:
+```
    [update_manager slicerfy]
    type: git_repo
    channel: dev
@@ -57,7 +58,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
    origin: https://github.com/pantata/slicerfy.git
    is_system_service: False
    primary_branch: master
-
+```
 - Run `ENABLE_PLUGIN name=slicerfy` command from the console.
 **Bambu Studio**
 - Use this [3MF](https://github.com/function3d/bambufy/releases/download/v1.1.0/ArticulatedCuteTurtle_Multicolor4Color_BambuStudio.3mf) with Bambu Studio (from there you can save settings such as user profiles)
@@ -73,7 +74,7 @@ Modified fork of [Bambufy](https://github.com/function3d/bambufy).
 - (Optional) Go back to Fluidd `WEB`
 
 ## [Multicolor printing nopoop (Orca)](https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md#orca-slicer-change-filament-g-code-unified-poop-and-nopoop)
-## [Multicolor printing nopoop (Prusaslicer)](https://github.com/function3d/bambufy/blob/master/MACHINE_GCODE.md#orca-slicer-change-filament-g-code-unified-poop-and-nopoop)
+## [Multicolor printing nopoop (Prusaslicer)](https://github.com/pantata/slicerfy/blob/master/MACHINE_GCODE.md#prusaslicer-change-filament-g-code)
 
 ## Pull requests and issues are welcome!
 Let's do what Flashforge didn't want to do!
@@ -83,5 +84,5 @@ Let's do what Flashforge didn't want to do!
 <img width="812" alt="image" src="https://github.com/user-attachments/assets/8ad8ce59-6f45-44ef-88ec-be9ecdcfb7f0" />
 
 ## Credits
-Sergei (ghzserg) [zmod](https://github.com/ghzserg/zmod)
-Raúl (function3d) [bambufy](https://github.com/function3d/bambufy
+- Sergei (ghzserg) [zmod](https://github.com/ghzserg/zmod)
+- Raúl (function3d) [bambufy](https://github.com/function3d/bambufy
